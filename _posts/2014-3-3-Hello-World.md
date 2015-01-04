@@ -16,3 +16,5 @@ Then, changed highlighter in the *_config.yml* file.
 
 `hightlighter: rouge`
 
+***IMPORTANT:*** Commiting a *_config.yml* that uses *rouge* now causes "Page build failure" on GitHub. Before you commit & push, you must set highlighter: pygments in _config.yml, even if you don't care to install pygments locally. See more details at [Blogging on GitHub](http://loyc.net/2014/blogging-on-github.html).
+
