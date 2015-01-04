@@ -95,12 +95,7 @@ See the *your-sheetpage-name*Data.cs file. The class members of the file represe
 
 `(put example data class code here)`
 
-```
-public class FighterData
-{
-    
-}
-```
+
 
 ### Step 3) Import spreadsheet data
 
