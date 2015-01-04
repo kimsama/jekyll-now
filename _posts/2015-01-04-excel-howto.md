@@ -95,6 +95,13 @@ See the *your-sheetpage-name*Data.cs file. The class members of the file represe
 
 `(put example data class code here)`
 
+```
+public class FighterData
+{
+    
+}
+```
+
 ### Step 3) Import spreadsheet data
 
 Creating asset file and importing data from the spreadsheet file into that created asset file is done just by simply doing reimport any *xls* or *xlsx* file within Project view.
