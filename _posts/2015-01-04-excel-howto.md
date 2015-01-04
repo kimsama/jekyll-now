@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QuickSheet with Excel Howto
+title: Unity-QuickSheet with Excel Howto
 categories: []
 tags: [QuickSheet]
 published: True
@@ -9,7 +9,7 @@ published: True
 
 ## How to work with Excel
 
-This post shows and helps you how set up and use [QuickSheet](https://github.com/kimsama/Unity-QuickSheet) with excel. 
+This post shows and helps you how to set up and use [Unity-QuickSheet](https://github.com/kimsama/Unity-QuickSheet) with excel. 
 
 ![Sample Excel file]({{ site.baseurl }}/images/excel_sample.png)
 
