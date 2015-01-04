@@ -119,6 +119,8 @@ public class FighterData
 }
 {% endhighlight %}
 
+
+
 ### Step 3) Import spreadsheet data
 
 Creating asset file and importing data from the spreadsheet file into that created asset file is done just by simply doing reimport any *xls* or *xlsx* file within Project view.
