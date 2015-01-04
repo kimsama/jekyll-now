@@ -93,7 +93,31 @@ In ***Runtime*** foller should have contain tow files:
 
 See the *your-sheetpage-name*Data.cs file. The class members of the file represent each cells of the sheet page.
 
-`(put example data class code here)`
+{% highlight csharp %}
+using UnityEngine;
+using System.Collections;
+
+[System.Serializable]
+public class FighterData
+{
+    [SerializeField]
+    int meleeskilllevel;
+    
+    [ExposeProperty]
+    public int Meleeskilllevel { 
+        get {return meleeskilllevel; } 
+        set { meleeskilllevel = value;} 
+    }
+    
+    [SerializeField]
+    int str;
+    
+    [ExposeProperty]
+    public int STR { get {return str; } set { str = value;} }
+
+    ...
+}
+{% endhighlight %}
 
 ### Step 3) Import spreadsheet data
 
