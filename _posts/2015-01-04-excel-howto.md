@@ -16,13 +16,13 @@ This post shows and helps you how to set up and use [Unity-QuickSheet](https://g
 Before starting, check your spreadsheet page again. It should start without an empty row which means the first row should not be an empty one.
 
 
-### Step 1) Create Excel setting file
+### Step 1) Create Excel Setting File
 
-First you need thing to do is creating an excel stting file. Simply right click on the Project view and select *'Create > Spreadsheet Tools > Excel'*. It creates a new file which shows various setting to create script files and get data from the specified excel file.
+First you need thing to do is creating an excel setting file. Simply right click on the Project view and select *'Create > Spreadsheet Tools > Excel'*. It creates a new file which shows various setting to create script files and get data from the specified excel file.
 
 ![Create Setting File]({{ site.baseurl }}/images/create_excel_setting.png)
 
-Select ***Excel*** mene item then it creates setting file. It may be shown like the following:
+Select ***Excel*** menu item then it creates setting file. It may be shown like the following:
 
 ![Excel Setting]({{ site.baseurl }}/images/excel_new_setting.png)
 
@@ -73,7 +73,7 @@ Path setting are concerned with specifying paths where the generated script file
 2. ***Runtime*** indicates a path where generated script files which are used on runtime will be put.
 3. ***Editor*** inidicates a path where generated script files which are used on editor mode will be put.
 
-### Step 2) Generating script files
+### Step 2) Generating Script Files
 
 If you've done all necessary setting, it's time to generate some script files which are needed for reading data in from the sheet page of the excel file and to store that within *ScriptableObject* which is being as an asset file in the *Project View*.
 
@@ -121,7 +121,7 @@ public class FighterData
 
 
 
-### Step 3) Import spreadsheet data
+### Step 3) Importing Spreadsheet Data
 
 Creating asset file and importing data from the spreadsheet file into that created asset file is done just by simply doing reimport any *xls* or *xlsx* file within Project view.
 
