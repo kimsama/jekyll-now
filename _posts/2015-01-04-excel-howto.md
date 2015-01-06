@@ -133,6 +133,12 @@ Reimporting *xls* or *xlsx* file will automatically create an asset file which h
 
 It's done. Hope you enjoy that!
 
+
 ## TroubleShoting
 
-`(more will be later...)`
+### *'Can't read content types part !'* error on Mac
+
+On a Mac machine, opening *.xlsx* file cause an error *'Can't read content types part !'*. 
+
+Save it as *'.xls'* then open again. It solves the problem.
+
