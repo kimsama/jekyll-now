@@ -148,4 +148,4 @@ Save it as *'.xls'* then open again. It solves the problem.
 
 There can be an exception error on Unity console such as 'Excel Deserialize Exception: Object reference not set to an instance of an objectRow[5], Cell[6] Is that cell empty?' if a cell of a spreadsheet is empty.
 
-Check the cell with the given row and cell index of the error. Then see the cell is defined as string type and not being empty. If the cell is empty fill the proper data.
+Check the cell with the given row and cell index of the error. Then see the cell is defined as string type and not being empty. If the cell is empty fill a proper data.
