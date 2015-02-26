@@ -79,6 +79,8 @@ If you've done all necessary setting, it's time to generate some script files wh
 
 Press ***Generate*** button.
 
+*Note:* Close excel if the spreadsheet is opened before importing.
+
 After generating some script files, Unity Editor starts to compile those. Wait till Unity ends doing compile then check the specified *Editor* and *Runtime* paths all necessary script files are correctly generated. 
 
 In ***Editor*** folder should have contain two files:
@@ -142,3 +144,8 @@ On a Mac machine, opening *.xlsx* file cause an error *'Can't read content types
 
 Save it as *'.xls'* then open again. It solves the problem.
 
+### *Excel Deserialize Exception* exception error
+
+I met the exception error on Unity console such as 'Excel Deserialize Exception: Object reference not set to an instance of an objectRow[5], Cell[6] Is that cell empty?'
+
+You should check the sheet of the excel file and find the given cell with to row and cell index of the error. Then check the cell is defined as string type and not being empty. If the cell is empty fill the proper data.
