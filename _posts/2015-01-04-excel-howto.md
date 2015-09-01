@@ -79,8 +79,6 @@ If you've done all necessary setting, it's time to generate some script files wh
 
 Press ***Generate*** button.
 
-*Note:* Close excel if the spreadsheet is opened before importing. It causes access violation error.
-
 After generating some script files, Unity Editor starts to compile those. Wait till Unity ends doing compile then check the specified *Editor* and *Runtime* paths all necessary script files are correctly generated. 
 
 In ***Editor*** folder should have contain two files:
