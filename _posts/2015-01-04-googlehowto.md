@@ -35,7 +35,9 @@ Note that the first row should not contain any values which are used for your cl
 
 Before futher going, you need to create *'Google OAuth2 Account'* to verity your account and make Unity available to access on your google spreadsheet. 
 
-See the [OAuth2 Service Account](https://opendatakit.org/use/aggregate/oauth2-service-account/) article to create *'Google OAuth2 Service Account'*. One thing to note is that you should create json type for the private key not the p12 one for Unity-Quicksheet.
+Google has changed the authentication scheme since May 5, 2015. Now it requires OAuth2. To set this up visit http://console.developers.google.com , create a new project, enable the Drive API, create a new client ID of type "service account" and download json file for the private key which is used to verity your credentials.
+
+See the [OAuth2 Service Account](https://opendatakit.org/use/aggregate/oauth2-service-account/) article to create *'Google OAuth2 Service Account'*. One thing to note is that you should create json type for the private key not the p12 one to use it on Unity-Quicksheet.
 
 If you successfully get the json private key then select *'GoogleDataSettings.asset'* file which can be found under *'Assets/QuickSheet/GDataPlugin/Editor'* folder. 
 
