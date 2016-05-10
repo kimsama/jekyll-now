@@ -107,6 +107,7 @@ Currently the following types are supoorted:
 
 - string
 - int
+- long
 - float
 - double
 - enum
