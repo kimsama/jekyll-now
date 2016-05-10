@@ -88,18 +88,14 @@ Select ***Google*** menu item then it creates setting file. It may be shown like
 
 ![Google New Setting File]({{ site.baseurl }}/images/google_new_setting.png)
 
-#### GoogleDrive Setting
-
-1. Speicify your google account.
-2. Sepecify your password for the account.
 
 #### Script Path Setting
 
 3. ***Template*** indicates a path where template files which are neccessary to generate script files.  In most case you don't need to change it.
-4. ***Runtime*** indicates a path where generated script files which are used on runtime will be put.
-5. ***Editor*** inidicates a path where generated script files which are used on editor mode will be put.
-6. ***Spread Sheet Name*** is what the name of the spreadsheet which is created on google drive.
-7. ***Work Sheet Name*** is one of the worksheet name of the spreadwheet you want to get data from.
+4. ***Runtime*** indicates a path where generated script files which are used on runtime will be put. If you already specified it in the *'GoogleDataSettings.asset'* file, that path will be automatically shown on.
+5. ***Editor*** inidicates a path where generated script files which are used on editor mode will be put. If you already specified it in the *'GoogleDataSettings.asset'* file, that path will be automatically shown on.
+6. ***Spread Sheet Name*** is what the name of the spreadsheet which is created on google drive. Note that the name is case sensitive.
+7. ***Work Sheet Name*** is one of the worksheet name of the spreadwheet you want to get data from. Note that the name is case sensitive.
 
 After doing done with all path setting, press ***Import*** button then it shows all column headers of the page. That are neccessary to let you set the type of the each cells.
 
