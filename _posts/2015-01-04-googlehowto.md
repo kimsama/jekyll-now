@@ -30,11 +30,23 @@ Now, it needs to edit cells for spreadsheet. Insert *'Key'* and *'Text'* at the 
 **IMPORTANT** <br>
 Note that the first row should not contain any values which are used for your class members.
 
+
+## Google OAuth2 Service Account ##
+
+Before futher going, you need to create *'Google OAuth2 Account'* to verity your account and make Unity available to access on your google spreadsheet. 
+
+See the [OAuth2 Service Account](https://opendatakit.org/use/aggregate/oauth2-service-account/) article to create *'Google OAuth2 Service Account'*. One thing to note is that you should create json type of private key not the p12 one for Unity-Quicksheet.
+
+If you successfully get the json private key then select *'GoogleDataSettings.asset'* file which can be found under *'Assets/QuickSheet/GDataPlugin/Editdor'* folder. 
+
+![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-setting.png)
+
 ### Step 1) Creating Google Spreadsheet Setting File 
 
 First you need thing to do is creating a google spreadsheet setting file. Simply right click on the Project view and select *'Create > Spreadsheet Tools > Google'*. It creates a new file which shows various setting to create script files and get data from the specified google spreadsheet.
 
 ![Google Create Setting File Menu]({{ site.baseurl }}/images/google_create_spreadsheettools.png)
+
 
 Select ***Google*** menu item then it creates setting file. It may be shown like the following:
 
