@@ -41,6 +41,23 @@ If you successfully get the json private key then select *'GoogleDataSettings.as
 
 ![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-setting.png)
 
+1. First, set the downloaded json private key to the *'JSON File'*.
+2. Now, 2)*'Client ID'* and 3)*'Client Secret'* will be automatically sepcified
+3. Click *'Start Authentication'* button it will launch your browser. 
+
+![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-accesscode-01.png)
+
+Select 'Allow' then go to next.
+
+![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-accesscode.png)
+
+Now you will see the *'access code'*. Copy it and paste to the Unity's 4)*'Access Code'* setting
+
+Final step is to click 'Finish Authenticate' button. 
+
+Set other paths 'Runtime Path' and 'Editor Path' for your project.
+
+
 ### Step 1) Creating Google Spreadsheet Setting File 
 
 First you need thing to do is creating a google spreadsheet setting file. Simply right click on the Project view and select *'Create > Spreadsheet Tools > Google'*. It creates a new file which shows various setting to create script files and get data from the specified google spreadsheet.
