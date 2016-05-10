@@ -35,14 +35,14 @@ Note that the first row should not contain any values which are used for your cl
 
 Before futher going, you need to create *'Google OAuth2 Account'* to verity your account and make Unity available to access on your google spreadsheet. 
 
-See the [OAuth2 Service Account](https://opendatakit.org/use/aggregate/oauth2-service-account/) article to create *'Google OAuth2 Service Account'*. One thing to note is that you should create json type of private key not the p12 one for Unity-Quicksheet.
+See the [OAuth2 Service Account](https://opendatakit.org/use/aggregate/oauth2-service-account/) article to create *'Google OAuth2 Service Account'*. One thing to note is that you should create json type for the private key not the p12 one for Unity-Quicksheet.
 
-If you successfully get the json private key then select *'GoogleDataSettings.asset'* file which can be found under *'Assets/QuickSheet/GDataPlugin/Editdor'* folder. 
+If you successfully get the json private key then select *'GoogleDataSettings.asset'* file which can be found under *'Assets/QuickSheet/GDataPlugin/Editor'* folder. 
 
 ![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-setting.png)
 
 1. First, set the downloaded json private key to the *'JSON File'*.
-2. Now, 2)*'Client ID'* and 3)*'Client Secret'* will be automatically sepcified
+2. Now, you can see 2)*'Client ID'* and 3)*'Client Secret'* will be automatically sepcified
 3. Click *'Start Authentication'* button it will launch your browser. 
 
 ![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-accesscode-01.png)
@@ -51,11 +51,20 @@ Select 'Allow' then go to next.
 
 ![GoogleDataSettings.asset]({{ site.baseurl }}/images/google-accesscode.png)
 
-Now you will see the *'access code'*. Copy it and paste to the Unity's 4)*'Access Code'* setting
+Now you will see the *'access code'*. Copy it and paste to the Unity's 4)*'Access Code'* setting.
 
 Final step is to click 'Finish Authenticate' button. 
 
-Set other paths 'Runtime Path' and 'Editor Path' for your project.
+And set other settings like 'Runtime Path' and 'Editor Path' for your project.
+
+It may enough to set like the following:
+
+```
+Runtime Path: Data/Runtime
+Editor Path: Data/Editor
+```
+
+Note that it assumes that the *'Data'* folder is under the *'Assets'* folder.
 
 
 ### Step 1) Creating Google Spreadsheet Setting File 
