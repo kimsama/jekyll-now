@@ -53,11 +53,11 @@ Select 'Allow' then go to next.
 
 Now you will see the *'access code'*. Copy it and paste to the Unity's 4)*'Access Code'* setting.
 
-Final step is to click 'Finish Authenticate' button. 
+The final step is to click 'Finish Authenticate' button to verify your credentials. 
 
 And set other settings like 'Runtime Path' and 'Editor Path' for your project.
 
-It may enough to set like the following:
+It may enough to set as the following:
 
 ```
 Runtime Path: Data/Runtime
@@ -73,6 +73,9 @@ First you need thing to do is creating a google spreadsheet setting file. Simply
 
 ![Google Create Setting File Menu]({{ site.baseurl }}/images/google_create_spreadsheettools.png)
 
+<p align="center">
+  <img src="{{ site.baseurl }}/images/google_create_spreadsheettools.png?raw=true" alt="Google OAuth Page"/>
+</p>
 
 Select ***Google*** menu item then it creates setting file. It may be shown like the following:
 
